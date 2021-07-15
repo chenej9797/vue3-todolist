@@ -1,5 +1,5 @@
 # vue3-todolist
-A neumorphism style Todo list
+A neumorphism style todo list
 
 - vite
 - vue3

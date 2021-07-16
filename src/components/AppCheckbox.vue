@@ -20,7 +20,7 @@ export default {
   props: {
     modelValue: {
       type: Boolean,
-      default: true
+      default: false
     }
   },
   emits: ['update:modelValue'],

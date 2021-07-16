@@ -66,7 +66,7 @@ export default {
     AppInput
   },
   setup () {
-    const inputForm = ref('aa')
+    const inputForm = ref('')
     const todoList = ref([
       {
         context: 'Meeting',

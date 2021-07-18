@@ -13,7 +13,8 @@ import TodoList from './components/TodoList.vue'
 
 <style lang="sass" scoped>
 .todo-list-container
-  @apply flex justify-center
+  @apply flex justify-center fixed w-full h-full
   @screen md
+    @apply relative w-auto h-auto
     padding-top: 10vh
 </style>

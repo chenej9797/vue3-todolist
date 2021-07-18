@@ -114,10 +114,9 @@ export default {
 <style lang="sass" scoped>
 $header-height: 36px
 $divider-height: 40px
-$form-height: 40px
 
 .todo-list
-  @apply bg-white flex flex-col py-6 px-8 w-full h-screen
+  @apply bg-white flex flex-col py-6 px-8 w-full h-full
   min-height: 550px
 
   @screen md
@@ -130,7 +129,7 @@ $form-height: 40px
 
   &__content
     @apply flex-grow overflow-hidden
-    +size(100%, calc(100vh - 48px - #{$header-height} - #{$divider-height} - #{$form-height}))
+    +size(100%, calc(100% - 48px - #{$header-height} - #{$divider-height} - #{$form-height}))
     @screen md
       height: calc(550px - 48px - #{$header-height} - #{$divider-height} - #{$form-height})
 

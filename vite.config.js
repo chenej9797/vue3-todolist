@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: '/vue3-todolist/',
+  base: '/vue3_todolist/',
   css: {
     preprocessorOptions: {
       sass: {

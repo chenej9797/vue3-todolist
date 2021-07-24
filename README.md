@@ -1,7 +1,7 @@
 # vue3-todolist
 A neumorphism style todo list
 
-[Demo](https://chenej9797.github.io/vue3-todolist/)
+[Demo](https://chenej9797.github.io/vue3_todolist/)
 
 - vite
 - vue3
